@@ -6,14 +6,14 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+    <div class="jumbotron mm">
+        <h1>ЗУПИНИМО КОРОНАВІРУС!</h1>
+        <!--<img src="3.png" class="img mm">-->
+        <p class="lead">Наша мета знезараження збудників інфекційних захворювань – ВІРУСІВ ТА БАКТЕРІЙ.</p>
+        
+        <!--<p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>-->
     </div>
-
+  
     <div class="body-content">
 
         <div class="row">

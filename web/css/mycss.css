@@ -1,0 +1,55 @@
+body{
+    background-color: #F0F8FF;
+}
+
+#my-style.navbar-default .navbar-brand {
+    color: rgba(255, 250, 250, 1);
+}
+#my-style.navbar-default {
+    font-size: 14px;
+    background-color: rgba(18, 37, 56, 1);
+    border-width: 0px;
+    border-radius: 9px;
+}
+#my-style.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(18, 37, 56, 1);
+}
+#my-style.navbar-default .navbar-nav>li>a:hover,
+#my-style.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(240, 248, 255, 1);
+}
+#my-style.navbar-default .navbar-nav>.active>a,
+#my-style.navbar-default .navbar-nav>.active>a:hover,
+#my-style.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(250, 113, 113, 1);
+    background-color: rgba(58, 88, 117, 0.98);
+}
+#my-style.navbar-default .navbar-toggle {
+    border-color: #3a5875;
+}
+#my-style.navbar-default .navbar-toggle:hover,
+#my-style.navbar-default .navbar-toggle:focus {
+    background-color: #3a5875;
+}
+#my-style.navbar-default .navbar-toggle .icon-bar {
+    background-color: #3a5875;
+}
+#my-style.navbar-default .navbar-toggle:hover .icon-bar,
+#my-style.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #122538;
+}
+.mm { 
+    color: #000000;
+ /*background-color: blue;*/
+    max-width:100%;
+    max-height:100%;
+    background-image: url('/3.png');
+    margin: 0px;
+}
+
+
+
+/*@media (max-width:600px)
+{ img {display:none;} }*/
