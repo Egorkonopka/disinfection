@@ -29,9 +29,9 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Html::img('logo.svg',['width'=>'25','class'=>'pull-left qwe']).'&nbsp'.'Disinfection',
+        'brandLabel' => Html::img('logo.svg',['width'=>'25','class'=>'pull-left qwe']).'&nbsp'.'@dnepr__disinfection',
 //        'brandLabel' => '<img src="favicon-32x32.png" class="qwe"/>Car Management System',
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandUrl' => 'https://www.instagram.com/dnepr__disinfection/',
         'options' => [
             'class' => 'navbar-default navbar-fixed-top',
             'id' => 'my-style',
@@ -40,21 +40,9 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'Ціни', 'url' => ['/site/about']],
-            ['label' => 'Замовити', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
-            ) : (
-                '<li>'
-                . Html::beginForm(['/site/logout'], 'post')
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link logout']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
+            ['label' => 'Главная', 'url' => ['/site/index']],
+            ['label' => 'Цены', 'url' => ['/site/about']],
+            ['label' => 'Заказать', 'url' => ['/site/contact']],
         ],
     ]);
     NavBar::end();
@@ -71,9 +59,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-left">&copy; dnepr_disinfection <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-right">Kyivstar:  <a href="tel:+380672825669"> +380672825669 </a> </p>
     </div>
 </footer>
 
